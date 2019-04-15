@@ -6,13 +6,13 @@ def soma_subtracao(x,y):
     return resultado
 def main():
     x=60
-    y=65
+    y=65      	
     resultado=soma_subtracao(x,y)
     print("resultado:",resultado)
 main()
 
 def ex2(x,y,funcao):
-    if(funcao=="A"):
+    if(funcao=="B"):
         return x*y
     else:
         return (2*x)+(2*y)
